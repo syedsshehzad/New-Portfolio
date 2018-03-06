@@ -1,0 +1,156 @@
+body {
+	background-image: url("../images/concrete_seamless.png");
+	width: 960px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: auto;
+	margin-top: 100px;
+}
+nav {
+	float: right;
+	padding: 30px 15px 50px 0px;
+	font-size: 18px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+header {
+	background-color: #4aaaa5;
+	color: white;
+	float: left;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: bold;
+	padding: 27px;
+	position: fixed;
+	top: 0px;
+}
+a {
+	text-decoration: inherit;
+}
+a.nav {
+	color: inherit;
+	text-decoration: inherit;
+	padding: 15px;
+}
+a.nav:hover {
+	background-color: rgb(220,255,245);
+	text-decoration: underline;
+}
+section {
+	font-family: arial;
+	background-color: #ffffff;
+}
+h1 {
+	border-bottom: solid 3px #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	padding: 10px 0px 20px 0px;
+	font-size: 26px;
+	font-weight: bold;
+}
+h3 {
+	border-bottom: solid 1px #cccccc;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	padding-bottom: 15px;
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+p {
+	padding: 10px 0px 10px 0px;
+	font-size: 16px;
+	line-height: 150%;
+}
+form {
+	margin: 10px 0px 10px 0px;
+	padding: 10px;
+	font-size: 18px;
+}
+input {
+	margin: 3px 0px 20px 0px;
+	width: 100%;
+	height: 20px;
+}
+textarea {
+	margin: 3px 0px 20px 0px;
+	width: 100%;
+}
+button {
+	color: #ffffff;
+	background-color: #4aaaa5;
+	height: 35px;
+	width: 100px;
+	border: solid 0px;
+	font-size: 18px;
+}
+img.pp {
+	height: 90px;
+	width:150px;
+	float: left;
+	padding: 15px 15px 15px 0px;
+}
+img.s {
+	height: 60px;
+	width: 60px;
+	padding: 5px;
+}
+img.big {
+	height: 390px;
+	width: 520px;
+	padding: 15px;
+}
+img.item {
+	height: 100%
+	width: 100%;
+	object-fit: contain;
+}
+div.med {
+	width: 283px;
+	float: left;
+	padding: 10px;
+	background-color: #bbbbbb
+}
+
+video {
+	height: 300px;
+	width: 520px;
+	padding: 15px;
+}
+#heading {
+	height: 54px;
+	width: 960px;
+	border-bottom: #cccccc 2px solid;
+	background-color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	position: fixed;
+	top: 0px;
+}
+#maincontent {
+	border: #dddddd 2px solid;
+	float: left;
+	width: 606px;
+	padding: 20px;
+}
+#sociallinks {
+	border: #dddddd 2px solid;
+	float: right;
+	width: 236px;
+	padding: 15px;
+}
+#placeholder {
+	width: 900px;
+	float: left;
+	margin-top: 70px;
+}
+footer {
+	background-color: #666666;
+	border-top: #4aaaa5 5px solid;
+	color: #cccccc;
+	text-align: center;
+	font-size: 12px;
+	padding: 25px 0px 25px 0px;
+	position: fixed;
+	bottom: 0;
+	width: 960px;
+}
